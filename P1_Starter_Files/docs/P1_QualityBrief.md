@@ -1,14 +1,13 @@
 # P1 — Data Quality Audit (Records → Insights → Recommendation)
 
-**Problem:** <one sentence on the messy/duplicate/missing data problem and where it shows up>  
+**Problem:** Bank marketing table contains exact duplicate rows, non-positive call durations, under-18 ages, and “unknown” values in key attributes.  
 
-**Why it matters:** <impact on accuracy, reporting, downstream ops, or decision-making>  
+**Why it matters:** Bad or ambiguous data skews campaign reporting, model training, and segment performance tracking  
 
-**Metric (success):** <e.g., duplicate rate ↓; 100% of required fields populated; time-to-clean < 30 min>  
+**Metric (success):** Remove exact duplicates; flag all non-positive durations; flag under-18; quantify and isolate “unknown” values; publish exception log + checklist.  
 
-**Data:** <dataset name/source; ~row count; key fields/IDs>  
+**Data:** bank-additional-full.csv (41,188 rows, 21 cols).  
 
-**Deadline:** <2025-09-19>
 
 ---
 
