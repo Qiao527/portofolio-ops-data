@@ -1,0 +1,16 @@
+duplicate,24
+invalid_duration,4
+invalid_age,5
+invalid_campaign,0
+invalid_pdays,0
+invalid_previous,0
+invalid_contact,0
+invalid_month,0
+invalid_dow,0
+invalid_poutcome,0
+unknown_job,330
+unknown_marital,80
+unknown_education,1731
+unknown_default,8597
+unknown_housing,990
+unknown_loan,990
