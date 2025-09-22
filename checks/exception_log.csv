@@ -1,5 +1,0 @@
-date,record_id,rule,field,value,issue_type,severity,action_suggested,owner,status,resolution_note
-2025-09-19,ROW_DUP_SAMPLE,duplicate_row,<all>,<duplicate>,duplicate,high,remove_duplicate,me,open,
-2025-09-19,ROW_DUR0,invalid_duration,duration,0,invalid,high,exclude_or_correct_source,me,open,
-2025-09-19,ROW_AGE17,underage,age,17,invalid,medium,verify_or_exclude,me,open,
-2025-09-19,ROW_UNK_DEF,unknown_value,default,unknown,missing,medium,request_update,me,open,
