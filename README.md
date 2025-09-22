@@ -10,7 +10,7 @@ Data / Ops / Supply Chain portfolio. This repo tracks small, proof-oriented proj
 ### P1 — Data Quality Audit (Records → Insights → Recommendation)
 - **Goal:** Define quality rules (duplicates/missing/invalid), scan a dataset, build an exception log, propose an intake→validation→update checklist.
 - **Deliverables:** `checks/`, `exception_log.csv`, **1-page brief** (`docs/P1_QualityBrief.pdf`), **issues chart**.
-- **Status:** ☐ planned ☐ running ☐ **done**
+- **Status:** ☐ planned ☐ running ✔️ **done**
 
 ### P2 — Forecast → Stock Policy
 - **Goal:** Baseline moving average vs. exponential smoothing; report **MAPE & bias**; set **Safety Stock** and **Reorder Point (ROP)** at 90/95/97.5% service levels.
